@@ -24,7 +24,7 @@ function drawOutlineCirle(){
 }
 
 function drawOutlineDots(){
-context.fillStyle = "purple";
+context.fillStyle = "black";
 for (var i = 0; i < nrOfDots; i++) {
     var y = offset + radius + radius * Math.cos(2 * Math.PI * i / nrOfDots) * -1;
     var x = offset + radius + radius * Math.sin(2 * Math.PI * i / nrOfDots);  
